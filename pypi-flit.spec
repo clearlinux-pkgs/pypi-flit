@@ -15,12 +15,12 @@ Requires: pypi-flit-license = %{version}-%{release}
 Requires: pypi-flit-python = %{version}-%{release}
 Requires: pypi-flit-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(flit_core)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 **Flit** is a simple way to put Python packages and modules on PyPI.
