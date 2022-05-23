@@ -4,7 +4,7 @@
 #
 Name     : pypi-flit
 Version  : 3.7.1
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/a0/62/4fe47656976da4a95bbe9ab3cc710b2c16a0b5a5ffa308780a2ab208ef50/flit-3.7.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a0/62/4fe47656976da4a95bbe9ab3cc710b2c16a0b5a5ffa308780a2ab208ef50/flit-3.7.1.tar.gz
 Summary  : A simple packaging tool for simple packages.
@@ -81,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1653329789
+export SOURCE_DATE_EPOCH=1653331385
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
