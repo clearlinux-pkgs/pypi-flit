@@ -7,7 +7,7 @@
 #
 Name     : pypi-flit
 Version  : 3.9.0
-Release  : 19
+Release  : 20
 URL      : https://files.pythonhosted.org/packages/b1/a6/e9227cbb501aee4fa4a52517d3868214036a7b085d96bd1e4bbfc67ad6c6/flit-3.9.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b1/a6/e9227cbb501aee4fa4a52517d3868214036a7b085d96bd1e4bbfc67ad6c6/flit-3.9.0.tar.gz
 Summary  : A simple packaging tool for simple packages.
