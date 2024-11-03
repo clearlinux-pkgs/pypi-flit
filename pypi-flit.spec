@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-flit
-Version  : 3.10.0
-Release  : 21
-URL      : https://files.pythonhosted.org/packages/c3/29/01c1ab00b1040c0de30f4dfd74cbaa26586e190bdcf12b1fd6783ea7dad4/flit-3.10.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/c3/29/01c1ab00b1040c0de30f4dfd74cbaa26586e190bdcf12b1fd6783ea7dad4/flit-3.10.0.tar.gz
+Version  : 3.10.1
+Release  : 22
+URL      : https://files.pythonhosted.org/packages/03/46/f84b8815d161e7392d124d3de6e5880d1d36a74162a77a5e2839dc3c8c68/flit-3.10.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/03/46/f84b8815d161e7392d124d3de6e5880d1d36a74162a77a5e2839dc3c8c68/flit-3.10.1.tar.gz
 Summary  : A simple packaging tool for simple packages.
 Group    : Development/Tools
 License  : BSD-3-Clause MIT
@@ -77,10 +77,10 @@ python3 components for the pypi-flit package.
 
 
 %prep
-%setup -q -n flit-3.10.0
-cd %{_builddir}/flit-3.10.0
+%setup -q -n flit-3.10.1
+cd %{_builddir}/flit-3.10.1
 pushd ..
-cp -a flit-3.10.0 buildavx2
+cp -a flit-3.10.1 buildavx2
 popd
 
 %build
@@ -88,7 +88,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1730394572
+export SOURCE_DATE_EPOCH=1730667223
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
