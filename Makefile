@@ -1,5 +1,5 @@
 PKG_NAME := pypi-flit
-URL = https://files.pythonhosted.org/packages/03/46/f84b8815d161e7392d124d3de6e5880d1d36a74162a77a5e2839dc3c8c68/flit-3.10.1.tar.gz
+URL = https://files.pythonhosted.org/packages/8b/c1/3482d40966e55808bae4dbd8b158c700146ed5d916cc98f0f5dcb4e23add/flit-3.11.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
